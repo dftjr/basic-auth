@@ -2,8 +2,7 @@
 
 const { Sequelize, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
-
-const sequelize = new Sequelize(process.env.DATABASE_URL);
+const sequelize = new Sequelize(process.env.DATABASE_URL || 'sqlite::memory');
 
 const Users = sequelize.define('User', {
   username: {

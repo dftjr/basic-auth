@@ -3,7 +3,6 @@
 const express = require('express');
 const basic = require('../middlewares/basic.js');
 const { Users } = require('../models/Users');
-
 const router = express.Router();
 
 router.post('/signup', async (req, res) => {
