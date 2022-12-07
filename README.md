@@ -4,7 +4,7 @@
 
 # UML
 
-
+<img src="./img/lab-06-uml.jpg" alt="UML Picture" width="400" height="200"/>
 
 # Install and Test Instructions
 
